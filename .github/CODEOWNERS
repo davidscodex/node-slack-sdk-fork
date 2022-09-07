@@ -8,11 +8,11 @@
 /.github/workflows/deno-build.yml @filmaj
 /.github/workflows/triage-issues.yml @srajiang
 /.gitignore @seratch
-/docs/ @filmaj
+/docs/ @filmaj @seratch @mwbrooks
 /docs/_packages/ @seratch
 /docs/_tutorials/ @mwbrooks
 /examples/express-all-interactions/ @xmariopereira
-/examples/oauth-v2/ @seratch
+/examples/oauth-v2/ @seratch @filmaj
 /examples/oauth-v2/app.js @filmaj
 /lerna.json @filmaj @seratch
 /lint-configs/ @filmaj @seratch
@@ -24,14 +24,14 @@
 /packages/client/src/ @filmaj @seratch
 /packages/client/tsconfig.eslint.json @filmaj @seratch
 /packages/events-api/ @filmaj @seratch
-/packages/interactive-messages/ @seratch
+/packages/interactive-messages/ @seratch @xmariopereira @filmaj
 /packages/interactive-messages/.eslintignore @filmaj
 /packages/interactive-messages/.eslintrc.js @filmaj
 /packages/interactive-messages/package.json @xmariopereira
 /packages/interactive-messages/src/ @filmaj
 /packages/interactive-messages/tsconfig.eslint.json @filmaj
 /packages/logger/ @filmaj @seratch
-/packages/oauth/ @seratch
+/packages/oauth/ @seratch @filmaj @mwbrooks
 /packages/oauth/.eslintignore @filmaj
 /packages/oauth/.eslintrc.js @filmaj
 /packages/oauth/package.json @filmaj
@@ -49,7 +49,7 @@
 /packages/oauth/src/state-stores/interface.ts @filmaj
 /packages/oauth/tsconfig.eslint.json @filmaj
 /packages/rtm-api/ @filmaj @seratch
-/packages/socket-mode/ @seratch
+/packages/socket-mode/ @seratch @filmaj
 /packages/socket-mode/* @filmaj
 /packages/socket-mode/examples/link.sh @filmaj
 /packages/socket-mode/examples/package.json @filmaj
@@ -58,13 +58,13 @@
 /packages/socket-mode/src/ @filmaj
 /packages/types/.eslintignore @seratch
 /packages/types/.eslintrc.js @seratch
-/packages/types/* @filmaj
+/packages/types/* @filmaj @seratch @misscoded
 /packages/types/src/ @seratch @misscoded
 /packages/types/tsconfig.eslint.json @seratch
 /packages/web-api/.eslintignore @seratch
 /packages/web-api/.eslintrc.js @seratch
 /packages/web-api/.gitignore @seratch
-/packages/web-api/* @filmaj
+/packages/web-api/* @filmaj @seratch @jimmywarting @hello-ashleyintech @misscoded
 /packages/web-api/deno-shims/ @filmaj
 /packages/web-api/package.json @seratch
 /packages/web-api/src/* @seratch
@@ -338,7 +338,7 @@
 /packages/web-api/src/WebClient.spec.js @filmaj
 /packages/web-api/src/WebClient.ts @filmaj
 /packages/web-api/tsconfig.eslint.json @seratch
-/packages/webhook/ @seratch
+/packages/webhook/ @seratch @helenwilliamson @rockingskier @filmaj
 /packages/webhook/.eslintignore @filmaj
 /packages/webhook/.eslintrc.js @filmaj
 /packages/webhook/package.json @helenwilliamson
@@ -354,3 +354,4 @@
 /prod-server-integration-tests/test/web-api.js @seratch
 /README.md @filmaj
 /scripts/ @hello-ashleyintech @filmaj
+
