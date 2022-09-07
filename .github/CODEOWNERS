@@ -1,0 +1,356 @@
+/.github/issue_template.md @seratch
+/.github/ISSUE_TEMPLATE/bug.md @seratch
+/.github/ISSUE_TEMPLATE/document.md @srajiang
+/.github/ISSUE_TEMPLATE/enhancement---feature-request.md @seratch
+/.github/ISSUE_TEMPLATE/question.md @seratch
+/.github/maintainers_guide.md @filmaj @hello-ashleyintech
+/.github/workflows/ci-build.yml @filmaj @seratch
+/.github/workflows/deno-build.yml @filmaj
+/.github/workflows/triage-issues.yml @srajiang
+/.gitignore @seratch
+/docs/ @filmaj
+/docs/_packages/ @seratch
+/docs/_tutorials/ @mwbrooks
+/examples/express-all-interactions/ @xmariopereira
+/examples/oauth-v2/ @seratch
+/examples/oauth-v2/app.js @filmaj
+/lerna.json @filmaj @seratch
+/lint-configs/ @filmaj @seratch
+/package.json @seratch
+/packages/client/.eslintignore @filmaj @seratch
+/packages/client/.eslintrc.js @filmaj @seratch
+/packages/client/package.json @filmaj @seratch
+/packages/client/README.md @hello-ashleyintech
+/packages/client/src/ @filmaj @seratch
+/packages/client/tsconfig.eslint.json @filmaj @seratch
+/packages/events-api/ @filmaj @seratch
+/packages/interactive-messages/ @seratch
+/packages/interactive-messages/.eslintignore @filmaj
+/packages/interactive-messages/.eslintrc.js @filmaj
+/packages/interactive-messages/package.json @xmariopereira
+/packages/interactive-messages/src/ @filmaj
+/packages/interactive-messages/tsconfig.eslint.json @filmaj
+/packages/logger/ @filmaj @seratch
+/packages/oauth/ @seratch
+/packages/oauth/.eslintignore @filmaj
+/packages/oauth/.eslintrc.js @filmaj
+/packages/oauth/package.json @filmaj
+/packages/oauth/README.md @mwbrooks
+/packages/oauth/src/callback-options.ts @filmaj
+/packages/oauth/src/default-render-html-for-install-path.spec.js @filmaj
+/packages/oauth/src/default-render-html-for-install-path.ts @filmaj
+/packages/oauth/src/index.ts @filmaj
+/packages/oauth/src/install-provider-options.ts @filmaj
+/packages/oauth/src/install-provider.spec.js @filmaj
+/packages/oauth/src/install-provider.ts @filmaj
+/packages/oauth/src/installation-stores/file-store.spec.js @filmaj
+/packages/oauth/src/installation-stores/file-store.ts @filmaj
+/packages/oauth/src/logger.ts @filmaj
+/packages/oauth/src/state-stores/interface.ts @filmaj
+/packages/oauth/tsconfig.eslint.json @filmaj
+/packages/rtm-api/ @filmaj @seratch
+/packages/socket-mode/ @seratch
+/packages/socket-mode/* @filmaj
+/packages/socket-mode/examples/link.sh @filmaj
+/packages/socket-mode/examples/package.json @filmaj
+/packages/socket-mode/examples/proxy.js @filmaj
+/packages/socket-mode/examples/simple.js @filmaj
+/packages/socket-mode/src/ @filmaj
+/packages/types/.eslintignore @seratch
+/packages/types/.eslintrc.js @seratch
+/packages/types/* @filmaj
+/packages/types/src/ @seratch @misscoded
+/packages/types/tsconfig.eslint.json @seratch
+/packages/web-api/.eslintignore @seratch
+/packages/web-api/.eslintrc.js @seratch
+/packages/web-api/.gitignore @seratch
+/packages/web-api/* @filmaj
+/packages/web-api/deno-shims/ @filmaj
+/packages/web-api/package.json @seratch
+/packages/web-api/src/* @seratch
+/packages/web-api/src/helpers.ts @jimmywarting
+/packages/web-api/src/instrument.ts @filmaj
+/packages/web-api/src/logger.ts @filmaj
+/packages/web-api/src/methods.ts @filmaj
+/packages/web-api/src/response/AdminAnalyticsGetFileResponse.ts @hello-ashleyintech @filmaj
+/packages/web-api/src/response/AdminAppsApprovedListResponse.ts @seratch @filmaj
+/packages/web-api/src/response/AdminAppsApproveResponse.ts @seratch @filmaj
+/packages/web-api/src/response/AdminAppsClearResolutionResponse.ts @seratch @filmaj
+/packages/web-api/src/response/AdminAppsRequestsListResponse.ts @seratch @filmaj
+/packages/web-api/src/response/AdminAppsRestrictedListResponse.ts @seratch @filmaj
+/packages/web-api/src/response/AdminAppsRestrictResponse.ts @seratch @filmaj
+/packages/web-api/src/response/AdminAppsUninstallResponse.ts @seratch @filmaj
+/packages/web-api/src/response/AdminAuthPolicyAssignEntitiesResponse.ts @filmaj @seratch
+/packages/web-api/src/response/AdminAuthPolicyGetEntitiesResponse.ts @filmaj @seratch
+/packages/web-api/src/response/AdminAuthPolicyRemoveEntitiesResponse.ts @filmaj @seratch
+/packages/web-api/src/response/AdminBarriersCreateResponse.ts @filmaj @seratch
+/packages/web-api/src/response/AdminBarriersDeleteResponse.ts @filmaj @seratch
+/packages/web-api/src/response/AdminBarriersListResponse.ts @filmaj @seratch
+/packages/web-api/src/response/AdminBarriersUpdateResponse.ts @filmaj @seratch
+/packages/web-api/src/response/AdminConversationsArchiveResponse.ts @filmaj @seratch
+/packages/web-api/src/response/AdminConversationsConvertToPrivateResponse.ts @filmaj @seratch
+/packages/web-api/src/response/AdminConversationsCreateResponse.ts @filmaj @seratch
+/packages/web-api/src/response/AdminConversationsDeleteResponse.ts @filmaj @seratch
+/packages/web-api/src/response/AdminConversationsDisconnectSharedResponse.ts @filmaj @seratch
+/packages/web-api/src/response/AdminConversationsEkmListOriginalConnectedChannelInfoResponse.ts @filmaj @seratch
+/packages/web-api/src/response/AdminConversationsGetConversationPrefsResponse.ts @filmaj @seratch
+/packages/web-api/src/response/AdminConversationsGetCustomRetentionResponse.ts @seratch
+/packages/web-api/src/response/AdminConversationsGetTeamsResponse.ts @filmaj @seratch
+/packages/web-api/src/response/AdminConversationsInviteResponse.ts @filmaj @seratch
+/packages/web-api/src/response/AdminConversationsRemoveCustomRetentionResponse.ts @seratch
+/packages/web-api/src/response/AdminConversationsRenameResponse.ts @filmaj @seratch
+/packages/web-api/src/response/AdminConversationsRestrictAccessAddGroupResponse.ts @filmaj @seratch
+/packages/web-api/src/response/AdminConversationsRestrictAccessListGroupsResponse.ts @filmaj @seratch
+/packages/web-api/src/response/AdminConversationsRestrictAccessRemoveGroupResponse.ts @filmaj @seratch
+/packages/web-api/src/response/AdminConversationsSearchResponse.ts @filmaj @seratch
+/packages/web-api/src/response/AdminConversationsSetConversationPrefsResponse.ts @filmaj @seratch
+/packages/web-api/src/response/AdminConversationsSetCustomRetentionResponse.ts @seratch
+/packages/web-api/src/response/AdminConversationsSetTeamsResponse.ts @filmaj @seratch
+/packages/web-api/src/response/AdminConversationsUnarchiveResponse.ts @filmaj @seratch
+/packages/web-api/src/response/AdminConversationsWhitelistAddResponse.ts @filmaj @seratch
+/packages/web-api/src/response/AdminConversationsWhitelistListGroupsLinkedToChannelResponse.ts @filmaj @seratch
+/packages/web-api/src/response/AdminConversationsWhitelistRemoveResponse.ts @filmaj @seratch
+/packages/web-api/src/response/AdminEmojiAddAliasResponse.ts @filmaj @seratch
+/packages/web-api/src/response/AdminEmojiAddResponse.ts @filmaj @seratch
+/packages/web-api/src/response/AdminEmojiListResponse.ts @filmaj @seratch
+/packages/web-api/src/response/AdminEmojiRemoveResponse.ts @filmaj @seratch
+/packages/web-api/src/response/AdminEmojiRenameResponse.ts @filmaj @seratch
+/packages/web-api/src/response/AdminInviteRequestsApprovedListResponse.ts @filmaj @seratch
+/packages/web-api/src/response/AdminInviteRequestsApproveResponse.ts @filmaj @seratch
+/packages/web-api/src/response/AdminInviteRequestsDeniedListResponse.ts @filmaj @seratch
+/packages/web-api/src/response/AdminInviteRequestsDenyResponse.ts @filmaj @seratch
+/packages/web-api/src/response/AdminInviteRequestsListResponse.ts @filmaj @seratch
+/packages/web-api/src/response/AdminTeamsAdminsListResponse.ts @filmaj @seratch
+/packages/web-api/src/response/AdminTeamsCreateResponse.ts @filmaj @seratch
+/packages/web-api/src/response/AdminTeamsListResponse.ts @filmaj @seratch
+/packages/web-api/src/response/AdminTeamsOwnersListResponse.ts @filmaj @seratch
+/packages/web-api/src/response/AdminTeamsSettingsInfoResponse.ts @seratch @filmaj
+/packages/web-api/src/response/AdminTeamsSettingsSetDefaultChannelsResponse.ts @filmaj @seratch
+/packages/web-api/src/response/AdminTeamsSettingsSetDescriptionResponse.ts @filmaj @seratch
+/packages/web-api/src/response/AdminTeamsSettingsSetDiscoverabilityResponse.ts @filmaj @seratch
+/packages/web-api/src/response/AdminTeamsSettingsSetIconResponse.ts @filmaj @seratch
+/packages/web-api/src/response/AdminTeamsSettingsSetNameResponse.ts @filmaj @seratch
+/packages/web-api/src/response/AdminUsergroupsAddChannelsResponse.ts @filmaj @seratch
+/packages/web-api/src/response/AdminUsergroupsAddTeamsResponse.ts @filmaj @seratch
+/packages/web-api/src/response/AdminUsergroupsListChannelsResponse.ts @filmaj @seratch
+/packages/web-api/src/response/AdminUsergroupsRemoveChannelsResponse.ts @filmaj @seratch
+/packages/web-api/src/response/AdminUsersAssignResponse.ts @filmaj @seratch
+/packages/web-api/src/response/AdminUsersInviteResponse.ts @filmaj @seratch
+/packages/web-api/src/response/AdminUsersListResponse.ts @filmaj @seratch
+/packages/web-api/src/response/AdminUsersRemoveResponse.ts @filmaj @seratch
+/packages/web-api/src/response/AdminUsersSessionClearSettingsResponse.ts @filmaj @seratch
+/packages/web-api/src/response/AdminUsersSessionGetSettingsResponse.ts @filmaj @seratch
+/packages/web-api/src/response/AdminUsersSessionInvalidateResponse.ts @filmaj @seratch
+/packages/web-api/src/response/AdminUsersSessionListResponse.ts @seratch @filmaj
+/packages/web-api/src/response/AdminUsersSessionResetBulkResponse.ts @seratch
+/packages/web-api/src/response/AdminUsersSessionResetResponse.ts @filmaj @seratch
+/packages/web-api/src/response/AdminUsersSessionSetSettingsResponse.ts @filmaj @seratch
+/packages/web-api/src/response/AdminUsersSetAdminResponse.ts @filmaj @seratch
+/packages/web-api/src/response/AdminUsersSetExpirationResponse.ts @filmaj @seratch
+/packages/web-api/src/response/AdminUsersSetOwnerResponse.ts @filmaj @seratch
+/packages/web-api/src/response/AdminUsersSetRegularResponse.ts @filmaj @seratch
+/packages/web-api/src/response/AdminUsersUnsupportedVersionsExportResponse.ts @seratch
+/packages/web-api/src/response/ApiTestResponse.ts @filmaj @seratch
+/packages/web-api/src/response/AppsConnectionsOpenResponse.ts @filmaj @seratch
+/packages/web-api/src/response/AppsEventAuthorizationsListResponse.ts @filmaj @seratch
+/packages/web-api/src/response/AppsPermissionsInfoResponse.ts @filmaj @seratch
+/packages/web-api/src/response/AppsPermissionsRequestResponse.ts @filmaj @seratch
+/packages/web-api/src/response/AppsPermissionsResourcesListResponse.ts @filmaj @seratch
+/packages/web-api/src/response/AppsPermissionsScopesListResponse.ts @filmaj @seratch
+/packages/web-api/src/response/AppsPermissionsUsersListResponse.ts @filmaj @seratch
+/packages/web-api/src/response/AppsPermissionsUsersRequestResponse.ts @filmaj @seratch
+/packages/web-api/src/response/AppsUninstallResponse.ts @seratch @filmaj
+/packages/web-api/src/response/AuthRevokeResponse.ts @filmaj @seratch
+/packages/web-api/src/response/AuthTeamsListResponse.ts @filmaj @seratch
+/packages/web-api/src/response/AuthTestResponse.ts @filmaj @seratch
+/packages/web-api/src/response/BookmarksAddResponse.ts @seratch
+/packages/web-api/src/response/BookmarksEditResponse.ts @seratch
+/packages/web-api/src/response/BookmarksListResponse.ts @seratch
+/packages/web-api/src/response/BookmarksRemoveResponse.ts @seratch
+/packages/web-api/src/response/BotsInfoResponse.ts @filmaj @seratch
+/packages/web-api/src/response/CallsAddResponse.ts @filmaj @seratch
+/packages/web-api/src/response/CallsEndResponse.ts @filmaj @seratch
+/packages/web-api/src/response/CallsInfoResponse.ts @filmaj @seratch
+/packages/web-api/src/response/CallsParticipantsAddResponse.ts @filmaj @seratch
+/packages/web-api/src/response/CallsParticipantsRemoveResponse.ts @filmaj @seratch
+/packages/web-api/src/response/CallsUpdateResponse.ts @filmaj @seratch
+/packages/web-api/src/response/ChannelsArchiveResponse.ts @filmaj @seratch
+/packages/web-api/src/response/ChannelsCreateResponse.ts @filmaj @seratch
+/packages/web-api/src/response/ChannelsHistoryResponse.ts @filmaj @seratch
+/packages/web-api/src/response/ChannelsInfoResponse.ts @filmaj @seratch
+/packages/web-api/src/response/ChannelsInviteResponse.ts @filmaj @seratch
+/packages/web-api/src/response/ChannelsJoinResponse.ts @filmaj @seratch
+/packages/web-api/src/response/ChannelsKickResponse.ts @filmaj @seratch
+/packages/web-api/src/response/ChannelsLeaveResponse.ts @filmaj @seratch
+/packages/web-api/src/response/ChannelsListResponse.ts @filmaj @seratch
+/packages/web-api/src/response/ChannelsMarkResponse.ts @filmaj @seratch
+/packages/web-api/src/response/ChannelsRenameResponse.ts @filmaj @seratch
+/packages/web-api/src/response/ChannelsRepliesResponse.ts @filmaj @seratch
+/packages/web-api/src/response/ChannelsSetPurposeResponse.ts @filmaj @seratch
+/packages/web-api/src/response/ChannelsSetTopicResponse.ts @filmaj @seratch
+/packages/web-api/src/response/ChannelsUnarchiveResponse.ts @filmaj @seratch
+/packages/web-api/src/response/ChatDeleteResponse.ts @filmaj @seratch
+/packages/web-api/src/response/ChatDeleteScheduledMessageResponse.ts @filmaj @seratch
+/packages/web-api/src/response/ChatGetPermalinkResponse.ts @filmaj @seratch
+/packages/web-api/src/response/ChatMeMessageResponse.ts @filmaj @seratch
+/packages/web-api/src/response/ChatPostEphemeralResponse.ts @filmaj @seratch
+/packages/web-api/src/response/ChatPostMessageResponse.ts @seratch
+/packages/web-api/src/response/ChatScheduledMessagesListResponse.ts @filmaj @seratch
+/packages/web-api/src/response/ChatScheduleMessageResponse.ts @seratch
+/packages/web-api/src/response/ChatUnfurlResponse.ts @filmaj @seratch
+/packages/web-api/src/response/ChatUpdateResponse.ts @seratch
+/packages/web-api/src/response/ConversationsAcceptSharedInviteResponse.ts @seratch
+/packages/web-api/src/response/ConversationsApproveSharedInviteResponse.ts @filmaj @seratch
+/packages/web-api/src/response/ConversationsArchiveResponse.ts @filmaj @seratch
+/packages/web-api/src/response/ConversationsCloseResponse.ts @filmaj @seratch
+/packages/web-api/src/response/ConversationsCreateResponse.ts @filmaj @seratch
+/packages/web-api/src/response/ConversationsDeclineSharedInviteResponse.ts @filmaj @seratch
+/packages/web-api/src/response/ConversationsHistoryResponse.ts @seratch
+/packages/web-api/src/response/ConversationsInfoResponse.ts @filmaj @seratch
+/packages/web-api/src/response/ConversationsInviteResponse.ts @filmaj @seratch
+/packages/web-api/src/response/ConversationsInviteSharedResponse.ts @filmaj @seratch
+/packages/web-api/src/response/ConversationsJoinResponse.ts @seratch @misscoded
+/packages/web-api/src/response/ConversationsKickResponse.ts @filmaj @seratch
+/packages/web-api/src/response/ConversationsLeaveResponse.ts @filmaj @seratch
+/packages/web-api/src/response/ConversationsListConnectInvitesResponse.ts @filmaj @seratch
+/packages/web-api/src/response/ConversationsListResponse.ts @seratch @filmaj
+/packages/web-api/src/response/ConversationsMarkResponse.ts @filmaj @seratch
+/packages/web-api/src/response/ConversationsMembersResponse.ts @filmaj @seratch
+/packages/web-api/src/response/ConversationsOpenResponse.ts @seratch
+/packages/web-api/src/response/ConversationsRenameResponse.ts @filmaj @seratch
+/packages/web-api/src/response/ConversationsRepliesResponse.ts @seratch
+/packages/web-api/src/response/ConversationsSetPurposeResponse.ts @filmaj @seratch
+/packages/web-api/src/response/ConversationsSetTopicResponse.ts @filmaj @seratch
+/packages/web-api/src/response/ConversationsUnarchiveResponse.ts @filmaj @seratch
+/packages/web-api/src/response/DialogOpenResponse.ts @filmaj @seratch
+/packages/web-api/src/response/DndEndDndResponse.ts @filmaj @seratch
+/packages/web-api/src/response/DndEndSnoozeResponse.ts @filmaj @seratch
+/packages/web-api/src/response/DndInfoResponse.ts @filmaj @seratch
+/packages/web-api/src/response/DndSetSnoozeResponse.ts @filmaj @seratch
+/packages/web-api/src/response/DndTeamInfoResponse.ts @filmaj @seratch
+/packages/web-api/src/response/EmojiListResponse.ts @filmaj @seratch
+/packages/web-api/src/response/FilesCommentsAddResponse.ts @filmaj @seratch
+/packages/web-api/src/response/FilesCommentsDeleteResponse.ts @filmaj @seratch
+/packages/web-api/src/response/FilesCommentsEditResponse.ts @filmaj @seratch
+/packages/web-api/src/response/FilesDeleteResponse.ts @filmaj @seratch
+/packages/web-api/src/response/FilesInfoResponse.ts @seratch
+/packages/web-api/src/response/FilesListResponse.ts @seratch
+/packages/web-api/src/response/FilesRemoteAddResponse.ts @seratch
+/packages/web-api/src/response/FilesRemoteInfoResponse.ts @seratch
+/packages/web-api/src/response/FilesRemoteListResponse.ts @seratch
+/packages/web-api/src/response/FilesRemoteRemoveResponse.ts @filmaj @seratch
+/packages/web-api/src/response/FilesRemoteShareResponse.ts @seratch
+/packages/web-api/src/response/FilesRemoteUpdateResponse.ts @seratch
+/packages/web-api/src/response/FilesRevokePublicURLResponse.ts @seratch
+/packages/web-api/src/response/FilesSharedPublicURLResponse.ts @seratch
+/packages/web-api/src/response/FilesUploadResponse.ts @seratch
+/packages/web-api/src/response/GroupsArchiveResponse.ts @filmaj @seratch
+/packages/web-api/src/response/GroupsCloseResponse.ts @filmaj @seratch
+/packages/web-api/src/response/GroupsCreateChildResponse.ts @filmaj @seratch
+/packages/web-api/src/response/GroupsCreateResponse.ts @filmaj @seratch
+/packages/web-api/src/response/GroupsHistoryResponse.ts @filmaj @seratch
+/packages/web-api/src/response/GroupsInfoResponse.ts @filmaj @seratch
+/packages/web-api/src/response/GroupsInviteResponse.ts @filmaj @seratch
+/packages/web-api/src/response/GroupsKickResponse.ts @filmaj @seratch
+/packages/web-api/src/response/GroupsLeaveResponse.ts @filmaj @seratch
+/packages/web-api/src/response/GroupsListResponse.ts @filmaj @seratch
+/packages/web-api/src/response/GroupsMarkResponse.ts @filmaj @seratch
+/packages/web-api/src/response/GroupsOpenResponse.ts @filmaj @seratch
+/packages/web-api/src/response/GroupsRenameResponse.ts @filmaj @seratch
+/packages/web-api/src/response/GroupsRepliesResponse.ts @filmaj @seratch
+/packages/web-api/src/response/GroupsSetPurposeResponse.ts @filmaj @seratch
+/packages/web-api/src/response/GroupsSetTopicResponse.ts @filmaj @seratch
+/packages/web-api/src/response/GroupsUnarchiveResponse.ts @filmaj @seratch
+/packages/web-api/src/response/ImCloseResponse.ts @filmaj @seratch
+/packages/web-api/src/response/ImHistoryResponse.ts @filmaj @seratch
+/packages/web-api/src/response/ImListResponse.ts @filmaj @seratch
+/packages/web-api/src/response/ImMarkResponse.ts @filmaj @seratch
+/packages/web-api/src/response/ImOpenResponse.ts @filmaj @seratch
+/packages/web-api/src/response/ImRepliesResponse.ts @filmaj @seratch
+/packages/web-api/src/response/index.ts @seratch @filmaj
+/packages/web-api/src/response/MigrationExchangeResponse.ts @filmaj @seratch
+/packages/web-api/src/response/MpimCloseResponse.ts @filmaj @seratch
+/packages/web-api/src/response/MpimHistoryResponse.ts @filmaj @seratch
+/packages/web-api/src/response/MpimListResponse.ts @filmaj @seratch
+/packages/web-api/src/response/MpimMarkResponse.ts @filmaj @seratch
+/packages/web-api/src/response/MpimOpenResponse.ts @filmaj @seratch
+/packages/web-api/src/response/MpimRepliesResponse.ts @filmaj @seratch
+/packages/web-api/src/response/OauthAccessResponse.ts @filmaj @seratch
+/packages/web-api/src/response/OauthTokenResponse.ts @seratch
+/packages/web-api/src/response/OauthV2AccessResponse.ts @filmaj @seratch
+/packages/web-api/src/response/OauthV2ExchangeResponse.ts @filmaj @seratch
+/packages/web-api/src/response/OpenIDConnectTokenResponse.ts @filmaj @seratch
+/packages/web-api/src/response/OpenIDConnectUserInfoResponse.ts @filmaj @seratch
+/packages/web-api/src/response/PinsAddResponse.ts @filmaj @seratch
+/packages/web-api/src/response/PinsListResponse.ts @seratch
+/packages/web-api/src/response/PinsRemoveResponse.ts @filmaj @seratch
+/packages/web-api/src/response/ReactionsAddResponse.ts @filmaj @seratch
+/packages/web-api/src/response/ReactionsGetResponse.ts @filmaj @seratch
+/packages/web-api/src/response/ReactionsListResponse.ts @seratch
+/packages/web-api/src/response/ReactionsRemoveResponse.ts @filmaj @seratch
+/packages/web-api/src/response/RemindersAddResponse.ts @seratch @filmaj
+/packages/web-api/src/response/RemindersCompleteResponse.ts @filmaj @seratch
+/packages/web-api/src/response/RemindersDeleteResponse.ts @filmaj @seratch
+/packages/web-api/src/response/RemindersInfoResponse.ts @filmaj @seratch
+/packages/web-api/src/response/RemindersListResponse.ts @seratch @filmaj
+/packages/web-api/src/response/RtmConnectResponse.ts @filmaj @seratch
+/packages/web-api/src/response/RtmStartResponse.ts @seratch
+/packages/web-api/src/response/SearchAllResponse.ts @seratch
+/packages/web-api/src/response/SearchFilesResponse.ts @seratch
+/packages/web-api/src/response/SearchMessagesResponse.ts @seratch
+/packages/web-api/src/response/StarsAddResponse.ts @filmaj @seratch
+/packages/web-api/src/response/StarsListResponse.ts @seratch
+/packages/web-api/src/response/StarsRemoveResponse.ts @filmaj @seratch
+/packages/web-api/src/response/TeamAccessLogsResponse.ts @filmaj @seratch
+/packages/web-api/src/response/TeamBillableInfoResponse.ts @filmaj @seratch
+/packages/web-api/src/response/TeamBillingInfoResponse.ts @seratch
+/packages/web-api/src/response/TeamInfoResponse.ts @seratch @filmaj
+/packages/web-api/src/response/TeamIntegrationLogsResponse.ts @filmaj @seratch
+/packages/web-api/src/response/TeamPreferencesListResponse.ts @seratch
+/packages/web-api/src/response/TeamProfileGetResponse.ts @seratch
+/packages/web-api/src/response/UsergroupsCreateResponse.ts @filmaj @seratch
+/packages/web-api/src/response/UsergroupsDisableResponse.ts @filmaj @seratch
+/packages/web-api/src/response/UsergroupsEnableResponse.ts @filmaj @seratch
+/packages/web-api/src/response/UsergroupsListResponse.ts @filmaj @seratch
+/packages/web-api/src/response/UsergroupsUpdateResponse.ts @filmaj @seratch
+/packages/web-api/src/response/UsergroupsUsersListResponse.ts @filmaj @seratch
+/packages/web-api/src/response/UsergroupsUsersUpdateResponse.ts @filmaj @seratch
+/packages/web-api/src/response/UsersConversationsResponse.ts @filmaj @seratch
+/packages/web-api/src/response/UsersDeletePhotoResponse.ts @filmaj @seratch
+/packages/web-api/src/response/UsersGetPresenceResponse.ts @filmaj @seratch
+/packages/web-api/src/response/UsersIdentityResponse.ts @filmaj @seratch
+/packages/web-api/src/response/UsersInfoResponse.ts @seratch
+/packages/web-api/src/response/UsersListResponse.ts @seratch
+/packages/web-api/src/response/UsersLookupByEmailResponse.ts @seratch
+/packages/web-api/src/response/UsersProfileGetResponse.ts @seratch
+/packages/web-api/src/response/UsersProfileSetResponse.ts @seratch
+/packages/web-api/src/response/UsersSetActiveResponse.ts @filmaj @seratch
+/packages/web-api/src/response/UsersSetPhotoResponse.ts @filmaj @seratch
+/packages/web-api/src/response/UsersSetPresenceResponse.ts @filmaj @seratch
+/packages/web-api/src/response/ViewsOpenResponse.ts @seratch
+/packages/web-api/src/response/ViewsPublishResponse.ts @seratch
+/packages/web-api/src/response/ViewsPushResponse.ts @seratch
+/packages/web-api/src/response/ViewsUpdateResponse.ts @seratch
+/packages/web-api/src/response/WorkflowsStepCompletedResponse.ts @filmaj @seratch
+/packages/web-api/src/response/WorkflowsStepFailedResponse.ts @filmaj @seratch
+/packages/web-api/src/response/WorkflowsUpdateStepResponse.ts @filmaj @seratch
+/packages/web-api/src/retry-policies.ts @filmaj
+/packages/web-api/src/WebClient.spec.js @filmaj
+/packages/web-api/src/WebClient.ts @filmaj
+/packages/web-api/tsconfig.eslint.json @seratch
+/packages/webhook/ @seratch
+/packages/webhook/.eslintignore @filmaj
+/packages/webhook/.eslintrc.js @filmaj
+/packages/webhook/package.json @helenwilliamson
+/packages/webhook/src/IncomingWebhook.spec.js @rockingskier
+/packages/webhook/src/IncomingWebhook.ts @filmaj
+/packages/webhook/src/instrument.ts @filmaj
+/packages/webhook/tsconfig.eslint.json @filmaj
+/prod-server-integration-tests/test/admin-web-api-analytics.js @hello-ashleyintech @filmaj
+/prod-server-integration-tests/test/admin-web-api-custom-retention.js @seratch
+/prod-server-integration-tests/test/admin-web-api-user-sessions.js @seratch
+/prod-server-integration-tests/test/admin-web-api-users-unsupportedVersions-export.js @seratch
+/prod-server-integration-tests/test/bookmarks-web-api.js @srajiang
+/prod-server-integration-tests/test/web-api.js @seratch
+/README.md @filmaj
+/scripts/ @hello-ashleyintech @filmaj
